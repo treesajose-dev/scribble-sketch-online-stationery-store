@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const products = getLocalStorage(PRODUCTS_KEY);
     if (products.length === 0) {
         const demoProducts = [
-            { id: 1, name: "Premium Notebook", price: 499, description: "High quality paper for sketching.", imagename: "https://placehold.co/300x200?text=Notebook" },
-            { id: 2, name: "Gel Pen Set", price: 199, description: "Smooth writing gel pens.", imagename: "https://placehold.co/300x200?text=Pens" },
-            { id: 3, name: "Acrylic Paints", price: 850, description: "Vibrant colors for artists.", imagename: "https://placehold.co/300x200?text=Paints" }
+            { id: 1, name: "Premium Notebook", price: 499, description: "High quality paper for sketching.", imagename: "https://images.meesho.com/images/products/543307742/zmtp9_512.webp" },
+            { id: 2, name: "Gel Pen Set", price: 199, description: "Smooth writing gel pens.", imagename: "https://adritishome.in/cdn/shop/files/IMG-20240831-WA0032.jpg" },
+            { id: 3, name: "Acrylic Paints", price: 850, description: "Vibrant colors for artists.", imagename: "https://www.montmarte.com/cdn/shop/files/Mont-Marte-Acrylic-Colour-Pastel-Colours-36-x-36ml-MSCP3636_V01-F2.jpg" }
         ];
         setLocalStorage(PRODUCTS_KEY, demoProducts);
     }
