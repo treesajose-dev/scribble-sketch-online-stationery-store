@@ -15,14 +15,7 @@ A stationary management system and online shopping website built with **Bootstra
 ### Option 1: Direct File Access
 Simply open `index.html` in your web browser.
 
-### Option 2: Local Web Server (Recommended)
-Using Python's built-in server:
-```bash
-python -m http.server 8000
-```
-Then navigate to `http://localhost:8000`
-
-### Option 3: VS Code Live Server
+### Option 2: VS Code Live Server
 1. Install the "Live Server" extension in VS Code
 2. Right-click on `index.html` and select "Open with Live Server"
 
@@ -62,22 +55,6 @@ The application comes with 3 demo products pre-loaded:
 1. Premium Notebook - ₹499
 2. Gel Pen Set - ₹199
 3. Acrylic Paints - ₹850
-
-## Deployment
-
-This is a static site and can be deployed to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static hosting service
-
-Simply upload all files to your hosting provider.
-
-## Browser Compatibility
-
-- Requires modern browser with LocalStorage support
-- JavaScript must be enabled
-- Tested on Chrome/Edge
 
 ---
 
